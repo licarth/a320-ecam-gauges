@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+.Gauge {
+  height: 2cm;
+  width: 2cm;
+  color: white;
+  border: yellow;
+  border-style: dashed;
+  font-variant: bold;
+  background: black;
+}
+
+.circle {
+  /* position: absolute; */
+  width: 100%;
+}
+
+.gaugeImage {
+  position: absolute;
+  /* z-index: 10; */
+  margin-top: -1.0mm;
+}
+
+.gaugeImage img {
+  width: 2cm;
+  /* top: 10mm; */
+}
+.Gauge svg {
+  position: absolute;
+}
+
+.Gauge img {
+  position: absolute;
+}
+
+.gaugeContainer {
+  position: absolute;
+  height: 2cm;
+  width: 2cm;
+  z-index: 10;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'a320'
+}
+
+.Panel {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 3cm 3cm 3cm;
+  grid-gap: 10mm;
+}
+
+
+@font-face {
+  font-family: "a320";
+  src: url("./a320pfd.ttf");
+}
