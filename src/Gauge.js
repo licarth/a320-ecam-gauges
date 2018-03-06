@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Gauge.css';
 import gauge from './gauge.png'
 import circle from './circle.svg'
