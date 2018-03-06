@@ -1,0 +1,21 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'a320'
+}
+
+.Panel {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 3cm 3cm 3cm;
+  grid-gap: 10mm;
+}
+
+
+@font-face {
+  font-family: "a320";
+  src: url("./a320pfd.ttf");
+}

@@ -1,0 +1,39 @@
+.Gauge {
+  height: 2cm;
+  width: 2cm;
+  color: white;
+  border: yellow;
+  border-style: dashed;
+  font-variant: bold;
+  background: black;
+}
+
+.circle {
+  /* position: absolute; */
+  width: 100%;
+}
+
+.gaugeImage {
+  position: absolute;
+  /* z-index: 10; */
+  margin-top: -1.0mm;
+}
+
+.gaugeImage img {
+  width: 2cm;
+  /* top: 10mm; */
+}
+.Gauge svg {
+  position: absolute;
+}
+
+.Gauge img {
+  position: absolute;
+}
+
+.gaugeContainer {
+  position: absolute;
+  height: 2cm;
+  width: 2cm;
+  z-index: 10;
+}
