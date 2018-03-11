@@ -1,6 +1,5 @@
 import React from 'react';
 import './Gauge.css';
-import gauge from './gauge.png'
 import circle from './circle.svg'
 
 const Gauge = (props) => {
@@ -56,7 +55,6 @@ const Gauge = (props) => {
             />
       </svg>
     </div>
-    {/* <div className='gaugeImage'><img src={gauge} /></div> */}
   </div>
 }
 

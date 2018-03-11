@@ -19,3 +19,12 @@
   font-family: "a320";
   src: url("./a320pfd.ttf");
 }
+
+.Gauge {
+  height: 2cm;
+  width: 2cm;
+  border: yellow;
+  border-style: dashed;
+  background: black;
+}
+
